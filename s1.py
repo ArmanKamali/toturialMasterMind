@@ -13,7 +13,7 @@ while len(initial) < GAME_LEN:
     r = random.randint(1, 5)
     if r not in initial:
         initial.append(r)
-initial = [colors[i] for i in initial]
+initial = [colorsgi[i] for i in initial]
 
 win = False
 for turn in range(5):
